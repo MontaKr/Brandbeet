@@ -12,9 +12,9 @@ import Part6 from "../components/part6/Part6";
 import Part7 from "../components/part7/Part7";
 
 const App = () => {
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger);
 
+  useEffect(() => {
     smooth();
   });
 

@@ -1,5 +1,10 @@
 import React from "react";
 import { Wrap } from "./Part3Style";
+import APPLE from "../../public/APPLE.svg";
+import DELL from "../../public/DELL.svg";
+import HP from "../../public/HP.svg";
+import IBM from "../../public/IBM.svg";
+import ORALB from "../../public/ORALB.svg";
 
 function Part3() {
   return (
@@ -22,11 +27,11 @@ function Part3() {
         </div>
       </div>
       <div className="btm-part-3">
-        <img src="../../asset/img/APPLE.svg" alt="Apple" />
-        <img src="../../asset/img/DELL.svg" alt="DELL" />
-        <img src="../../asset/img/HP.svg" alt="HP" />
-        <img src="../../asset/img/IBM.svg" alt="IBM" />
-        <img src="../../asset/img/ORALB.svg" alt="ORALB" />
+        <img src={APPLE} alt="Apple" />
+        <img src={DELL} alt="DELL" />
+        <img src={HP} alt="HP" />
+        <img src={IBM} alt="IBM" />
+        <img src={ORALB} alt="ORALB" />
       </div>
     </Wrap>
   );

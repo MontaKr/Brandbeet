@@ -1,6 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import { Wrap } from "./Part7Style";
 import { gsap } from "gsap/all";
+import IMG1 from "../../asset/img/1.jpg";
+import IMG2 from "../../asset/img/2.jpg";
+import IMG10 from "../../asset/img/10.jpg";
+import IMG11 from "../../asset/img/11.jpg";
+import IMG12 from "../../asset/img/12.jpg";
+import IMG13 from "../../asset/img/13.jpg";
+import IMG14 from "../../asset/img/14.jpg";
 
 function Part7() {
   let Part7Ref = useRef(null);
@@ -45,13 +52,13 @@ function Part7() {
       <div className="our-work-txt-div" ref={(el) => (OurTextRef = el)}>
         <div className="scroll-work">
           <div className="scroll-img" ref={(el) => (ScrollRef = el)}>
-            <img src="../../asset/img/1.jpg" alt="imageone" />
-            <img src="../../asset/img/2.jpg" alt="imagetwo" />
-            <img src="../../asset/img/10.jpg" alt="imageten" />
-            <img src="../../asset/img/11.jpg" alt="imageeleven" />
-            <img src="../../asset/img/12.jpg" alt="imagetwelve" />
-            <img src="../../asset/img/13.jpg" alt="imagethirteen" />
-            <img src="../../asset/img/14.jpg" alt="imagefourteen" />
+            <img src={IMG1} alt="imageone" />
+            <img src={IMG2} alt="imagetwo" />
+            <img src={IMG10} alt="imageten" />
+            <img src={IMG11} alt="imageeleven" />
+            <img src={IMG12} alt="imagetwelve" />
+            <img src={IMG13} alt="imagethirteen" />
+            <img src={IMG14} alt="imagefourteen" />
           </div>
         </div>
       </div>
